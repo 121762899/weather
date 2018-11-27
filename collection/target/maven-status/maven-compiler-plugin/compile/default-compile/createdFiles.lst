@@ -1,0 +1,10 @@
+com\waylau\spring\cloud\weather\CollectionApplication.class
+com\waylau\spring\cloud\weather\config\QuartzConfiguration.class
+com\waylau\spring\cloud\weather\config\RestConfiguration.class
+com\waylau\spring\cloud\weather\job\WeatherDataSyncJob.class
+com\waylau\spring\cloud\weather\service\WeatherDataServiceImpl.class
+com\waylau\spring\cloud\weather\vo\City.class
+com\waylau\spring\cloud\weather\service\WeatherDataService.class
+com\waylau\spring\cloud\weather\config\QuartzConfiguration2.class
+com\waylau\spring\cloud\weather\controller\HelloController.class
+com\waylau\spring\cloud\weather\service\CityClient.class

@@ -1,0 +1,10 @@
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\vo\City.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\controller\HelloController.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\config\RestConfiguration.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\service\WeatherDataService.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\CollectionApplication.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\config\QuartzConfiguration2.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\service\WeatherDataServiceImpl.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\job\WeatherDataSyncJob.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\service\CityClient.java
+D:\Projects\weathercloud\collection\src\main\java\com\waylau\spring\cloud\weather\config\QuartzConfiguration.java
