@@ -2,6 +2,7 @@ package com.waylau.spring.cloud.weather.controller;
 
 import java.util.List;
 
+import com.waylau.spring.cloud.weather.service.DataClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ public class WeatherReportController {
 	private WeatherReportService weatherReportService;
 
 	@Autowired
-	private CityClient cityClient;
+	private DataClient dataClient;
 
 	@GetMapping("/cityId/{cityId}")
 	public ModelAndView getWeatherByCityId(@PathVariable("cityId") String cityId, Model model) throws Exception {
@@ -36,7 +37,7 @@ public class WeatherReportController {
 		try {
 
 			// 由城市数据API微服务提供数据
-			cityList = cityClient.listCity();
+			cityList = dataClient.listCity();
 
 		} catch (Exception e) {
 			logger.error("Exception!", e);
@@ -58,7 +59,7 @@ public class WeatherReportController {
 		try {
 
 			// 由城市数据API微服务提供数据
-			cityList = cityClient.listCity();
+			cityList = dataClient.listCity();
 
 		} catch (Exception e) {
 			logger.error("Exception!", e);

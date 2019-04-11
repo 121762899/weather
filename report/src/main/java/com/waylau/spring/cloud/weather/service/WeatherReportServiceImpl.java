@@ -10,17 +10,17 @@ import com.waylau.spring.cloud.weather.vo.WeatherResponse;
 public class WeatherReportServiceImpl implements WeatherReportService {
 
 	@Autowired
-	private WeatherDataClient weatherDataClient;
+	private DataClient dataClient;
 
 	@Override
 	public Weather getWeatherDataByCityId(String cityId) {
-		WeatherResponse resp = weatherDataClient.getWeatherDataByCityId(cityId);
+		WeatherResponse resp = dataClient.getWeatherDataByCityId(cityId);
 		return resp.getData();
 	}
 
 	@Override
 	public Weather getWeatherDataByCityName(String cityName) {
-		WeatherResponse resp = weatherDataClient.getWeatherDataByCityName(cityName);
+		WeatherResponse resp = dataClient.getWeatherDataByCityName(cityName);
 		return resp.getData();
 	}
 
