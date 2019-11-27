@@ -5,8 +5,7 @@ import java.io.Serializable;
 /**
  * Weather Response.
  * 
- * @since 1.0.0 2017年11月21日
- * @author <a href="https://waylau.com">Way Lau</a> 
+
  */
 public class WeatherResponse implements Serializable {
 

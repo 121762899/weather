@@ -5,8 +5,6 @@ import com.waylau.spring.cloud.weather.vo.WeatherResponse;
 /**
  * Weather Data Service.
  * 
- * @since 1.0.0 2017年11月22日
- * @author <a href="https://waylau.com">Way Lau</a> 
  */
 public interface WeatherDataService {
 	/**

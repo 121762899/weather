@@ -5,8 +5,6 @@ import java.io.Serializable;
 /**
  * 未来天气.
  * 
- * @since 1.0.0 2017年11月21日
- * @author <a href="https://waylau.com">Way Lau</a> 
  */
 public class Forecast implements Serializable {
 
